@@ -10,7 +10,7 @@ Game::Game()
 
 	network = std::make_unique<Network>(ipAdress, port);
 
-	pSprite.setName("Nikola");
+	pSprite.setName("Nubbin");
 
 	mWindow.create(sf::VideoMode(840, 680), "Game");
 	socket.setBlocking(false);

@@ -1,0 +1,9 @@
+file(GLOB LOCAL_SOURCE
+	"source/*.*"
+)
+
+set(CLIENT_SOURCES
+	${CLIENT_SOURCES}
+	${LOCAL_SOURCE}
+	PARENT_SCOPE
+	)
